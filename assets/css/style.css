@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+body{
+    margin: 8px 0px;
+    font-family: 'Roboto';
+}
+#menu{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 0.5%;
+}
+.itemMenu{
+    display: flex;
+    align-items: center;
+}
+#menuLateral{
+    flex-direction: column;
+    gap: 0.22rem;
+    justify-content: center;
+    margin-right: 30%;
+}
+#menuLateral-logo{
+    display: flex;
+    margin-left: 2%;
+}
+#searchVideoTextArea{
+    border: 1px solid rgba(204, 204, 204, 1);
+    width: 348px;
+    height: 40px;
+}
+#searchVideoButton{
+    width: 57px;
+    height: 40px;
+    border: 1px solid rgba(204, 204, 204, 1);
+}
+#video-bell-avatar{
+    gap: 1.2rem;
+    margin-right: 2%;
+}
+#avatar img{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+main{
+    display: flex;
+    background-color: rgba(249, 249, 249, 1);
+    padding-top: 1.5%;
+}
+#video-titulo h1{
+    font-weight: 600;
+}
+#video-information-actions{
+    width: 70%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.sidebarVideos{
+    font-family: 'Roboto';
+    display: flex;
+    margin-bottom: 5%;
+}
+.sidebarVideosInformation h3{
+    font-size: 1rem;
+    margin: 0%;
+}
+.sidebarVideosInformation{
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    color: rgba(81, 81, 81, 1);
+    margin: 0% 4%;
+}
+.sidebarVideosInformation span#channel {
+    margin: 8px 0px;
+}
+.videoWrapper {
+    position: relative;
+    padding-bottom: 56.25%; /* Proporção de aspecto 16:9 */
+    height: 0;
+}
+
+.videoWrapper iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+#videoActions{
+    display: flex;
+    font-size: 14px;
+    gap: 6%;
+}
+#channelInfos{
+    display: flex;
+    gap: 7%;
+}
+#channelInfos-nameSubscribes{
+    display: flex;
+    flex-direction: column;
+    font-size: 14px;
+    justify-content: center;
+}
+#channelSubscribes{
+    color:rgba(81, 81, 81, 1);
+    width: 119%;
+}
+button.subscribeButton{
+    background-color: rgba(204, 0, 0, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 12px 33px;
+    border-radius: 3px;
+    border: none;
+}
+#information{
+    padding-right: 54%;
+    padding-top: 2%;
+    font-size: 14px;
+}
+.actions{
+    display: flex;
+    align-items: center;
+    width: 9%;
+    gap: 6%;
+}
